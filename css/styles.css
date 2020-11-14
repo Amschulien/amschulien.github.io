@@ -26,7 +26,7 @@ video {
   display: block;
 }
 
-/* Begin Header Navbar Styles */
+/* Begin Header Navbar Styles (Bottom Navbar)*/
 .nav-bar {
   display: flex;
   flex-wrap: wrap;
@@ -90,7 +90,7 @@ video {
   border-bottom: 1px solid #000;
 }
 
-/* Hero Header Navbar Changes */
+/* Hero Header Navbar Changes (Top Navbar)*/
 
 .hero-nav {
   background: none;
@@ -107,7 +107,14 @@ video {
 }
 
 .hero-nav .nav-menu a:hover {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid white;
+  transform: scale(0.98);
+}
+
+.hero-nav .nav-menu a:active {
+  border-bottom: 1px solid pink;
+  color: pink;
+  transform: scale(0.9);
 }
 
 .hero-nav .nav-menu a {
@@ -137,7 +144,7 @@ video {
 
 .hero-image-box::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 50, 0.3);
   height: 125%;
   width: 100%;
   position: absolute;
@@ -205,6 +212,30 @@ video {
 .hero-button:active {
   background: rgba(0, 0, 0, 0.2);
 }
+
+/*About Page Header CSS   Mess around more with it
+.about-nav {
+  background-color: rgba(228, 120, 135, 0.781);
+}
+
+.about-nav .logo a,
+.about-nav .nav-menu a {
+  color: white;
+}
+
+.about-nav .nav-menu a:hover {
+  transform: scale(0.98);
+}
+
+.about-nav .nav-menu a:active {
+  color: white;
+  transform: scale(0.9);
+}
+
+.about-nav .nav-menu a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+*/
 
 /*About Page CSS*/
 .about-page {
