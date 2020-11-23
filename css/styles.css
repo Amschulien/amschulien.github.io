@@ -111,8 +111,8 @@ video {
 }
 
 .hero-nav .nav-menu a:active {
-  border-bottom: 1px solid pink;
-  color: pink;
+  border-bottom: 1px solid #d9486e;
+  color: #d9486e;
   transform: scale(0.9);
 }
 
